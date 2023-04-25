@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post">
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+    <fieldset>
+    <legend>o que achou do nosso suporte?</legend>
+
+    <div>
+      <input type="checkbox" id="scales" name="Bom" checked>
+      <label for="scales">Bom</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="horns" name="Ruim">
+      <label for="horns">Ruim</label>
+    </div>
+</fieldset>
+
+
+
+
+<header>
+
+<header>
+<section id="posts">
+   <!-- Tabela Simples -->
+   <article class="elementos" id="hl1">
+       <section class="exemplo">
+           <p class="sub">Horário das Aulas</p>
+           <table class="horario">
+               <caption>Quadro de Horário</caption>
+               <thead>
+                   <tr>
+                       <th class="tabela">Horário</th>
+                       <th class="tabela">Segunda</th>
+                       <th class="tabela">Terça</th>
+                       <th class="tabela">Quarta</th>
+                       <th class="tabela">Quita</th>
+                       <th class="tabela">Sexta</th>
+                       <th class="tabela">Sábado</th>
+                   </tr>
+               </thead>
+               <tfoot>
+                   <tr>
+                       <th>Horário</th>
+                       <th>Segunda</th>
+                       <th>Terça</th>
+                       <th>Quarta</th>
+                       <th>Quita</th>
+                       <th>Sexta</th>
+                       <th>Sábado</th>
+                   </tr>
+               </tfoot>
+               <tbody>
+                   <tr>
+                       <th>17:20</th>
+                       <td>Início</td>
+                       <td>Início</td>
+                       <td>Início</td>
+                       <td>Início</td>
+                       <td>Início</td>
+                       <td>Início</td>
+                   </tr>
+                   <tr>
+                       <th>18:10</th>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                   </tr>
+                   <tr>
+                       <th>19:00</th>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                   </tr>
+                   <tr>
+                       <th>19:50</th>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                   </tr>
+                   <tr>
+                       <th>20:40</th>
+                       <td>Intervalo</td>
+                       <td>Intervalo</td>
+                       <td>Intervalo</td>
+                       <td>Intervalo</td>
+                       <td>Intervalo</td>
+                       <td>Intervalo</td>
+                   </tr>
+                   <tr>
+                       <th>20:50</th>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                   </tr>
+                    <tr>
+                       <th>21:40</th>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                   </tr>
+                    <tr>
+                       <th>22:30</th>
+                       <td>Termino</td>
+                       <td>Termino</td>
+                       <td>Termino</td>
+                       <td>Termino</td>
+                       <td>Termino</td>
+                       <td>Termino</td>
+                   </tr>
+               </tbody>
+           </table>
+       </section>
+   </article>
+</section>
+<footer class="pagina">
